@@ -1,30 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>trip advisor</title>
+    <title>TRIP ADVISOR</title>
   </head>
   <body>
     <!----------------------------------->
 
     <!-- EUROPEAN POPUP -->
     
-     <div class="modal" id="pop-up-europe">
-      <div class="modal-header"><div class="title"><h1>European Alps</h1></div>
-    <button data-close-button class="close-button">&times;</button></div>
-    <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate modi, porro officiis nobis itaque tenetur quas deleniti dolorum illum neque possimus quaerat expedita fugiat totam aspernatur debitis? Quam autem quos, corporis, voluptatem, cumque sunt at aspernatur quidem rem incidunt ex.
+    <div class="modal" id="pop-up-europe">
+    <div class="modal-header">
+        <div class="title">
+          <h1>European Alps</h1>
+        </div>
+    <button data-close-button class="close-button">&times;</button>
+      </div>
+        <div class="modal-body">
+          <div class="modal-text">
+            Experience the ultimate winter paradise in the European Alps during skiing season. 
+          </div>
+        </div>
+        <div class="header">
+          <a class="buy-btn" href="contact.html">BUY</a>
+        </div>
     </div>
-     </div>
 
      <!-- JAPANEASE POPUP -->
 
      <div class="modal" id="pop-up-japan">
       <div class="modal-header"><div class="title"><h1>Japanease Alps</h1></div>
     <button data-close-button class="close-button">&times;</button></div>
-    <div class="modal-body">hejheeje
+    <div class="modal-body">
+      <div class="modal-text">
+        Discover the ultimate skiing experience in Japan. With its legendary powder snow</div>
+    </div>
+    <div class="header">
+      <a class="buy-btn" href="contact.html">BUY</a>
+    </div>
     </div>
      </div>
 
@@ -33,16 +49,26 @@
      <div class="modal" id="pop-up-north-america">
       <div class="modal-header"><div class="title"><h1>North America</h1></div>
     <button data-close-button class="close-button">&times;</button></div>
-    <div class="modal-body">hejheeje
+    <div class="modal-body">
+      <div class="modal-text">
+        Discover the ski paradise of North America. With its breathtaking mountain ranges and world-class resort.     </div>
+    </div>
+    <div class="header">
+      <a class="buy-btn" href="contact.html">BUY</a>
     </div>
      </div>
 
      <!-- SCANDINAVIA POPUP -->
 
      <div class="modal" id="pop-up-scandinavia">
-      <div class="modal-header"><div class="title"><h1>Scandinavia</h1></div>
+      <div class="modal-header"><div class="title"><h1>Norway</h1></div>
     <button data-close-button class="close-button">&times;</button></div>
-    <div class="modal-body">hejheeje
+    <div class="modal-body">
+      <div class="modal-text">
+        Discover the thrill of skiing in Norway's snowy paradise. With stunning landscapes.  </div>
+    </div>
+    <div class="header">
+      <a  class="buy-btn"href="contact.html">BUY</a>
     </div>
      </div>
      <!-- --------- -->
@@ -53,7 +79,7 @@
     <button data-close-button class="close-button">&times;</button></div> 
     <div class="login-body">
     <div class="login-form"><div class="login-form">
-      <h6>Login</h6>
+      <p>Login</p>
       <form>
         <label for="email">e-mail:</label><br>
         <input type="email" id="email" name="email">
@@ -74,10 +100,10 @@
         <!-- Nav FULL SCREEN -->
         <nav>
           <a id="#login" data-modal-target="#pop-up-login"><h4>Login</h4>
-          </a><a href=""><h4>Discounts</h4></a>
+          </a><a href="#skies"><h4>Skies</h4></a>
           <img id="nav-img" src="mountain_1-removebg-preview.png" alt="">
-          <a href=""><h4>Our Trips</h4></a>
-          <a href=""><h4>Contacts</h4></a>
+          <a href="#travel"><h4>Travel</h4></a>
+          <a href="contact.html"><h4>Shoppingcart</h4></a>
         </nav>
         <!-- HAM MENU -->
 <div class="menu-icon">
@@ -91,9 +117,9 @@
 <nav class="nav-menu">
   <ul>
     <li><a id="#login" data-modal-target="#pop-up-login" href="#"><h5>Login</h5></a></li>
-    <li><a href="#"><h5>Discounts</h5></a></li>
-    <li><a href="#"><h5>Our Trips</h5></a></li>
-    <li><a href="#"><h5>Contacts</h5></a></li>
+    <li><a href="#skies"><h5>Skies</h5></a></li>
+    <li><a href="#travel"><h5>Travel</h5></a></li>
+    <li><a href="contact.html"><h5>Shoppingcart</h5></a></li>
   </ul>
 </nav>
 
@@ -103,26 +129,27 @@
           <h2>With us, your dream finally became your truth</h2>
         </div>
       </div>
-      <div class="our-skies">
-        <div id="tjäder" class="skies">
-          <div class="skies-text">Jesper Tjäder</div>
-          <div class="skies-pic"></div>
+      <div id="skies"class="our-skies">
+        <div  class="skies">
+          <div class="skies-pic" id="superwolf"></div>
+          <div class="skies-text"><h6>MAJESTY Superwolf</h6></div>
+         
         </div>
-        <div id="tjäder" class="skies">
-          <div class="skies-text">Jesper Tjäder</div>
-          <div class="skies-pic"></div>
+        <div id="majesty-dirty-bear" class="skies">
+          <div class="skies-text"><h6>MAJESTY Dirty Bear</h6></div>
+          <div class="skies-pic" id="dirty-bear"></div>
         </div>
-        <div id="tjäder" class="skies">
-          <div class="skies-text">Jesper Tjäder</div>
-          <div class="skies-pic"></div>
+        <div id="majesty-superscout" class="skies">
+          <div class="skies-pic" id="superscout"></div>
+          <div class="skies-text"><h6>MAJESTY Superscout</h6></div>
         </div>
-        <div id="tjäder" class="skies">
-          <div class="skies-text">Jesper Tjäder</div>
-          <div class="skies-pic"></div>
+        <div id="atomic-chetler" class="skies">
+          <div class="skies-text"><h6>Atomic Chetler</h6></div>
+          <div class="skies-pic" id="atomic-chetler"></div>
         </div>
     
       </div>
-      <div class="travel-main">
+      <div id="travel"class="travel-main">
         <div id="europe" data-modal-target="#pop-up-europe" class="travel-dest">
           <div id="europe-pic"></div>
           <div id="europe-text">
@@ -141,7 +168,7 @@
         </div>
         <div id="scandinavia" data-modal-target="#pop-up-scandinavia" class="travel-dest">
           <div id="scandinavia-text">
-            <h3>Scandinavia</h3>
+            <h3>Norway</h3>
           </div>
           <div id="scandinavia-pic"></div>
          
@@ -154,10 +181,8 @@
       </div>
       
     </div>
-    <footer class="footer">hej</footer>
+   
   </body>
   <script src="app.js"></script>
 </html>
-
-
 
